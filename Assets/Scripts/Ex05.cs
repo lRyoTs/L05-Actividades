@@ -9,10 +9,10 @@ public class Ex05 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        if (number.Length >= 5)
+        if (number.Length >= 5) //Check if the array has less than 5 elements
         {
             Debug.Log($"First element {number[0]}");
-            Debug.Log($"Second element {number[2]}");
+            Debug.Log($"Third element {number[2]}");
             Debug.Log($"Fifth element {number[4]}");
         }
         else {
