@@ -10,7 +10,7 @@ public class Ex04 : MonoBehaviour
     void Start()
     {
         Debug.Log($"First element {number[0]}");
-        Debug.Log($"Second element {number[2]}");
+        Debug.Log($"Third element {number[2]}");
         Debug.Log($"Fifth element {number[4]}");
     }
 
